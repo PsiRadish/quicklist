@@ -1,0 +1,15 @@
+<div class="col-xs-24 col-sm-24 col-md-24 col-lg-24">
+    
+  <h4>Choose list to open or to create a new one.</h4>
+  
+  <ul class="well well-sm">
+    <li><a href="/list/pretend">Pretend List</a></li>
+    <!-- <li><a href="/list/test/TEST">Test List</a></li> -->
+    <li ng-repeat="(route, display) in listRoutes">
+      <a href="/list/{{route}}">{{display}}</a>
+    </li>
+  </ul>
+
+  <a href="/list/new">New List</a>
+
+</div>

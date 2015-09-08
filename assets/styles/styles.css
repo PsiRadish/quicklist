@@ -1,0 +1,153 @@
+
+nav
+{
+    text-align: center;
+}
+
+/*nav label + label
+{
+    margin-left: 20px;
+}*/
+
+/*nav h3
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}*/
+
+h2
+{
+    text-align: center;
+}
+
+h1, h2, h3, .h1, .h2, .h3
+{
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+h4, h5, h6, .h4, .h5, .h6
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h1, .h1 
+{
+    font-size: 44px;
+}
+h2, .h2
+{
+    font-size: 38px;
+}
+h3, .h3 
+{
+    font-size: 32px;
+}
+h4, .h4 
+{
+    font-size: 26px;
+}
+h5, .h5 
+{
+    font-size: 20px;
+}
+h6, .h6 
+{
+    font-size: 14px;
+}
+
+.panel
+{
+    padding: 0;
+}
+.panel-heading
+{
+    text-align: center;
+}
+.panel-body
+{
+    padding: 10px;
+}
+
+legend
+{
+    margin-bottom: 8px;
+}
+
+hr
+{
+    margin: 8px 0;
+}
+
+button[type="submit"]
+{
+    margin-top: 10px;
+}
+
+.no-margin
+{
+    margin: 0 !important;
+}
+.no-padding
+{
+    padding: 0 !important;
+}
+.center-text
+{
+    text-align: center !important;
+}
+
+label
+{
+    font-weight: bold;
+}
+label h4
+{
+    line-height: 24px;
+}
+
+.form-control
+{
+    height: initial;
+}
+
+ol
+{
+    list-style: none;
+}
+
+ol ol
+{
+    border-left: 1px dotted #DDD;
+}
+.tree-node-content
+{
+    margin-left: 0;
+}
+
+input
+{
+    font-size: 13px !important;
+}
+
+.form-control
+{
+    width: auto !important;
+    display: initial !important;
+}
+
+.fold-btn, .fold-btn:focus, .fold-btn:active
+{
+    color: #444;
+    cursor: default;
+}
+.fold-btn:hover
+{
+    color: #666;
+    text-decoration: none;
+}
+
+/**[data-nodrag]
+{
+    cursor: initial;
+}*/

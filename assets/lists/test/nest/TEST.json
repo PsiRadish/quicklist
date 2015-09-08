@@ -1,0 +1,66 @@
+{
+  "name": "TEST",
+  "path": "test;nest",
+  "notes": "These are notes",
+  "hideNotes": false,
+  "nextId": 6,
+  "tasks": [
+    {
+      "id": 0,
+      "completed": false,
+      "title": "Test this tree thing",
+      "notes": "But hard!",
+      "hideNotes": false,
+      "hideSubtasks": false,
+      "subtasks": [
+        {
+          "id": 1,
+          "completed": false,
+          "title": "Rememember to nest!",
+          "notes": "Seriously.",
+          "hideNotes": true,
+          "hideSubtasks": false,
+          "subtasks": [
+            {
+              "id": 2,
+              "completed": false,
+              "title": "At least this far.",
+              "notes": "",
+              "hideNotes": false,
+              "hideSubtasks": false,
+              "subtasks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "completed": false,
+      "title": "Pee",
+      "notes": "Furiously.",
+      "hideNotes": false,
+      "hideSubtasks": false,
+      "subtasks": [
+        {
+          "id": 4,
+          "completed": false,
+          "title": "Remember to flush!",
+          "notes": "",
+          "hideNotes": false,
+          "hideSubtasks": false,
+          "subtasks": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "completed": false,
+      "title": "I got nothin'",
+      "notes": "",
+      "hideNotes": false,
+      "hideSubtasks": false,
+      "subtasks": []
+    }
+  ]
+}
